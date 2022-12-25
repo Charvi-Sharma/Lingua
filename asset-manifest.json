@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Lingua/static/css/main.e88216de.css",
+    "main.js": "/Lingua/static/js/main.605ac0f2.js",
+    "static/media/Image.png": "/Lingua/static/media/Image.98319740848574ac20dd.png",
+    "index.html": "/Lingua/index.html",
+    "main.e88216de.css.map": "/Lingua/static/css/main.e88216de.css.map",
+    "main.605ac0f2.js.map": "/Lingua/static/js/main.605ac0f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e88216de.css",
+    "static/js/main.605ac0f2.js"
+  ]
+}
