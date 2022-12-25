@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+}
+
+.page-item {
+    padding: 10px 5px;
+}
+
+.my-page-link {
+    text-decoration: none;
+}
+
+.circle {
+    width: 10px;
+height: 10px;
+
+/* Outline */
+
+background: #E8E8F6;
+border-radius: 100%;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}

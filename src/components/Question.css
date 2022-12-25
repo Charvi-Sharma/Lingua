@@ -1,0 +1,200 @@
+.faq-2 {
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 36px 56px;
+gap: 10px;
+
+position: absolute;
+width: 610px;
+left: 630px;
+top: 271px;
+
+border-radius: 40px;
+}
+
+.faq-text-container-2 {
+    /* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 34px;
+isolation: isolate;
+
+width: 449px;
+height: 36px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.faq-question-2 {
+    width: 449px;
+height: 36px;
+
+/* Title */
+
+font-family: 'Axiforma','Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 36px;
+/* identical to box height, or 180% */
+
+
+/* Text Primary */
+
+color: #181B32;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+}
+
+.faq-3 {
+    
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 36px 56px;
+gap: 10px;
+
+position: absolute;
+width: 610px;
+left: 630px;
+top: 143px;
+
+border-radius: 40px;
+}
+
+.faq-4 {
+   
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    padding: 36px 56px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 610px;
+
+    left: 0px;
+    top: 399px;
+    
+    border-radius: 40px;
+}
+
+.faq-5 {
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    padding: 36px 56px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 610px;
+
+    left: 0px;
+    top: 271px;
+    
+    
+    border-radius: 40px;
+}
+
+.faq-6 {
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 36px 56px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 610px;
+
+    left: 0px;
+    top: 143px;
+    
+
+    border-radius: 40px;
+}
+
+.expand-icon {
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+border-radius: 100%;
+
+/* Primary 200 */
+
+background: #524FD5;
+}
+
+.expand-icon img {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.icon-frame {
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 540px;
+    top: 38px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+}
+
+.collapse-icon {
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+border-radius: 100%;
+
+/* Background - White */
+
+background: #FFFFFF;
+}
+
+.collapse-icon img{
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}

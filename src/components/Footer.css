@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section {
+    position: absolute;
+width: 1240px;
+height: 352px;
+left: 100px;
+top: 5023px;
+
+/* Background - Dark */
+
+background: #F8FAFE;
+border-radius: 40px;
+}
+
+.footer-background {
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+}
+
+.footer-container {
+    /* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 105px;
+
+position: absolute;
+height: 192px;
+left: 5.56%;
+right: 5.56%;
+top: calc(50% - 192px/2 - 28px);
+}
+
+.footer-1 {
+    
+width: 260px;
+height: 127px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.address {
+    position: absolute;
+left: 0%;
+right: 14.23%;
+top: 52.8%;
+bottom: 8.61%;
+
+/* Caption */
+
+font-family: 'Axiforma','Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 24px;
+/* or 200% */
+
+
+/* Body text */
+
+color: #666680;
+}
+
+.footer-2 {
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+height: 192px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.footer-heading {
+    width: 80px;
+height: 24px;
+
+/* Subtitle - 2 */
+
+font-family: 'Axiforma','Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Text Primary */
+
+color: #181B32;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.footer-2-container {
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+height: 144px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.footer-2-container text {
+height: 24px;
+
+/* Body text - 14 */
+
+font-family: 'Axiforma','Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+/* Body text */
+
+color: #666680;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.footer-3 {
+    width: 145px;
+height: 41px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+
+.facebook {
+    position: absolute;
+left: 86.84%;
+right: 9.44%;
+top: 0%;
+bottom: 78.65%;
+}
+
+.twitter {
+    position: absolute;
+    left: 91.56%;
+    right: 4.72%;
+    top: 0%;
+    bottom: 78.65%;
+    
+}
+
+.instagram {
+    position: absolute;
+    left: 96.28%;
+    right: 0%;
+    top: 0%;
+    bottom: 78.65%;
+    
+}

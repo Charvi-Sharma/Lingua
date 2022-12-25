@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.value-container {
+    position: absolute;
+width: 1240px;
+height: 472px;
+left: 100px;
+top: 1049px;
+
+}
+
+.value-text-section {
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+height: 100px;
+left: 499px;
+/* top: 0px; */
+
+}
+
+.value-text-section .value-header {
+    width: 158px;
+height: 34px;
+
+/* Subtitle 1 */
+
+font-family: 'Axiforma','Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 190%;
+/* or 34px */
+text-transform: uppercase;
+
+/* Outline dark */
+color: #B0B0C0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.value-text-section .heading {
+    /* width: 243px; */
+height: 62px;
+
+/* H2 */
+
+font-family: 'Axiforma','Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 130%;
+/* or 62px */
+
+
+/* Text Primary */
+
+color: #181B32;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.value-1 {
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 47px;
+
+position: absolute;
+width: 289px;
+height: 281.99px;
+left: 49px;
+top: 189.69px;
+}
+
+.glass-icon {
+    width: 81px;
+height: 80.99px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.text-container-1 {
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+height: 154px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+ h5 {
+    text-align: center;
+    width: 180px;
+height: 36px;
+
+/* H5 */
+
+font-family: 'Axiforma','Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+
+/* Text Primary */
+
+color: #181B32;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+ .content {
+ 
+height: 102px;
+
+/* Body text - 18 */
+
+font-family: 'Axiforma','Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 190%;
+/* or 34px */
+
+text-align: center;
+
+/* Body text */
+
+color: #666680;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.value-2 {
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 46px;
+
+position: absolute;
+width: 301px;
+height: 283.08px;
+left: 459px;
+top: 188.69px;
+}
+
+.value-3{
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 45px;
+
+position: absolute;
+height: 281.9px;
+left: 866px;
+top: 189.69px;
+
+}
